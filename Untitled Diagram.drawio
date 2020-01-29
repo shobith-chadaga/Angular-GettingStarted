@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-29T05:37:50.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="FW7Rr8ONKtUqGwWxrtiP" version="12.6.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-29T06:44:21.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="F5Jaf_8_nAAQvRQty3bf" version="12.6.1" type="github">
   <diagram id="XbEey4qihFn1aIaw0n4t" name="Page-1">
-    <mxGraphModel dx="854" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="854" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -9,89 +9,25 @@
             <mxPoint x="420" y="240" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oMd4Auz60f5KPNyBKYmL-1" value="JFAS Patching Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="oMd4Auz60f5KPNyBKYmL-1" value="JFAS Rollback Patching Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" width="120" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMd4Auz60f5KPNyBKYmL-4" target="skGRCkMkXogipKOWA8Lq-23">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="oMd4Auz60f5KPNyBKYmL-4" value="Serverlist,username,password" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="oMd4Auz60f5KPNyBKYmL-4" value="Serverlist,username,password,Patch ID" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="80" width="280" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="eEmDbHhoeAruKQSayOO1-37" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="260" width="50" height="40" as="geometry"/>
+        <mxCell id="skGRCkMkXogipKOWA8Lq-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-22" target="skGRCkMkXogipKOWA8Lq-27">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-1">
+        <mxCell id="skGRCkMkXogipKOWA8Lq-22" value="Remove applied patch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="240" width="119" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="skGRCkMkXogipKOWA8Lq-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-23">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="360" as="targetPoint"/>
+            <mxPoint x="380" y="240" as="targetPoint"/>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="280" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-1" value="Is new patch&amp;nbsp;&lt;br&gt;downloaded&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="240" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-6" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="435" y="260" width="30" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-7" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="320" width="40" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="280" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-8" value="Patch not found" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="260" width="135" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-11" target="skGRCkMkXogipKOWA8Lq-12">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-11" value="Verify old patch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="360" width="120" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-12" target="skGRCkMkXogipKOWA8Lq-14">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-12" target="skGRCkMkXogipKOWA8Lq-19">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-12" value="Is&lt;br&gt;newpatch =old&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="440" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-14" target="skGRCkMkXogipKOWA8Lq-16">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-14" value="Both Patches same" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="460" width="135" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-16" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="460" width="50" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-18" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="435" y="460" width="40" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-19" target="skGRCkMkXogipKOWA8Lq-22">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-19" value="Copy new jar and xml to bsu cache dir" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="560" width="120" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-21" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="520" width="30" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-22" target="skGRCkMkXogipKOWA8Lq-27">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-22" value="Remove old patch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="640" width="120" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-23" target="skGRCkMkXogipKOWA8Lq-1">
-          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-23" value="Login to server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="160" width="120" height="40" as="geometry"/>
@@ -99,73 +35,71 @@
         <mxCell id="skGRCkMkXogipKOWA8Lq-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-27" target="skGRCkMkXogipKOWA8Lq-29">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-27" target="skGRCkMkXogipKOWA8Lq-35">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-27" value="Is remove patch&lt;br&gt;successful?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="720" width="120" height="80" as="geometry"/>
-        </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-29" target="skGRCkMkXogipKOWA8Lq-31">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-29" value="Cannot apply new&lt;br&gt;patch since remove&amp;nbsp;&lt;br&gt;failed" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="720" width="175" height="80" as="geometry"/>
+        <mxCell id="skGRCkMkXogipKOWA8Lq-29" value="Cannot rollback&lt;br&gt;patch since remove&amp;nbsp;&lt;br&gt;failed" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="175" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-31" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="740" width="50" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-33" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="740" width="30" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-34" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="800" width="40" height="20" as="geometry"/>
+          <mxGeometry x="680" y="340" width="50" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-35" target="skGRCkMkXogipKOWA8Lq-37">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-35" value="Apply new patch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="840" width="120" height="40" as="geometry"/>
+        <mxCell id="skGRCkMkXogipKOWA8Lq-35" value="Apply patch using Patch ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="440" width="120" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-37" target="skGRCkMkXogipKOWA8Lq-39">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-37" value="Log the change by changing folder permissions in bsu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="920" width="120" height="40" as="geometry"/>
+          <mxGeometry x="322" y="520" width="120" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-39" target="skGRCkMkXogipKOWA8Lq-41">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-39">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="1040" as="targetPoint"/>
-          </mxGeometry>
+        <mxCell id="skGRCkMkXogipKOWA8Lq-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-39" target="skGRCkMkXogipKOWA8Lq-50">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-39" value="Is apply patch&lt;br&gt;successful?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1000" width="120" height="80" as="geometry"/>
+        <mxCell id="skGRCkMkXogipKOWA8Lq-39" value="Is rollback&lt;br&gt;successful?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="600" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-41" target="skGRCkMkXogipKOWA8Lq-44">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-41" value="Successfully applied patch" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1017.5" width="180" height="45" as="geometry"/>
+          <mxGeometry x="100" y="617.5" width="180" height="45" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-43" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="1017.5" width="40" height="20" as="geometry"/>
+          <mxGeometry x="290" y="618.75" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-44" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1020" width="50" height="40" as="geometry"/>
+          <mxGeometry x="40" y="740" width="50" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-49" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1020" width="30" height="20" as="geometry"/>
+          <mxGeometry x="442" y="618.75" width="30" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-50" target="skGRCkMkXogipKOWA8Lq-51">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-50" value="Apply patch failed" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="1020" width="175" height="42.5" as="geometry"/>
+          <mxGeometry x="505" y="618.75" width="175" height="42.5" as="geometry"/>
         </mxCell>
         <mxCell id="skGRCkMkXogipKOWA8Lq-51" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1020" width="50" height="40" as="geometry"/>
+          <mxGeometry x="720" y="620" width="50" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="skGRCkMkXogipKOWA8Lq-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-27" target="skGRCkMkXogipKOWA8Lq-35">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="skGRCkMkXogipKOWA8Lq-27" value="Is remove patch&lt;br&gt;successful?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="320" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="skGRCkMkXogipKOWA8Lq-55" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="skGRCkMkXogipKOWA8Lq-57" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
