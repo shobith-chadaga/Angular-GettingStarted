@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-29T06:44:21.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="F5Jaf_8_nAAQvRQty3bf" version="12.6.1" type="github">
+<mxfile host="www.draw.io" modified="2020-02-10T10:39:04.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="1F0SPj6ms72af9HIY0CW" version="12.6.6" type="github">
   <diagram id="XbEey4qihFn1aIaw0n4t" name="Page-1">
-    <mxGraphModel dx="854" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="854" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -9,97 +9,133 @@
             <mxPoint x="420" y="240" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oMd4Auz60f5KPNyBKYmL-1" value="JFAS Rollback Patching Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="oMd4Auz60f5KPNyBKYmL-1" value="WAS Restart Start&lt;br&gt;(Main Script.py)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" width="120" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMd4Auz60f5KPNyBKYmL-4" target="skGRCkMkXogipKOWA8Lq-23">
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMd4Auz60f5KPNyBKYmL-4" target="skGRCkMkXogipKOWA8Lq-35">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="oMd4Auz60f5KPNyBKYmL-4" value="Serverlist,username,password,Patch ID" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="80" width="280" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-22" target="skGRCkMkXogipKOWA8Lq-27">
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMd4Auz60f5KPNyBKYmL-4" target="co0_gV-_lDP_jfXwJyxM-26">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-22" value="Remove applied patch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="322" y="240" width="119" height="40" as="geometry"/>
+        <mxCell id="oMd4Auz60f5KPNyBKYmL-4" value="WebSphere App Server path,&lt;br&gt;path of Jython scripts,Wasadmin username,&lt;br&gt;,password,action" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="80" width="280" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-23">
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-35" target="co0_gV-_lDP_jfXwJyxM-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="skGRCkMkXogipKOWA8Lq-35" value="Action = stop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="200" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-2" target="co0_gV-_lDP_jfXwJyxM-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-2" value="Stop JVMs&lt;br&gt;(Calls Script stop_jvm.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-6" target="co0_gV-_lDP_jfXwJyxM-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-6" target="co0_gV-_lDP_jfXwJyxM-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-6" value="Stop Nodeagent?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="240" as="targetPoint"/>
+            <mxPoint x="180" y="640" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-23" value="Login to server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="160" width="120" height="40" as="geometry"/>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-8" value="Stop Nodeagents&lt;br&gt;(Calls Script&lt;br&gt;stop_nodeagent.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-27" target="skGRCkMkXogipKOWA8Lq-29">
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-10" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="480" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-15" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="425" width="70" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-17" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="420" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-18" target="co0_gV-_lDP_jfXwJyxM-20">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-29" target="skGRCkMkXogipKOWA8Lq-31">
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-18" target="co0_gV-_lDP_jfXwJyxM-23">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-29" value="Cannot rollback&lt;br&gt;patch since remove&amp;nbsp;&lt;br&gt;failed" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="320" width="175" height="80" as="geometry"/>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-18" value="Stop DMGR?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-31" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="340" width="50" height="40" as="geometry"/>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-20" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="665" width="70" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-35" target="skGRCkMkXogipKOWA8Lq-37">
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-22" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="660" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="880" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-23" value="Stop DMGR&lt;br&gt;(run StopManager.bat)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-25" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="720" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="280" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-26" value="Action = start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-32" target="co0_gV-_lDP_jfXwJyxM-33">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-35" value="Apply patch using Patch ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="322" y="440" width="120" height="40" as="geometry"/>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-32" value="Start DMGR&lt;br&gt;(run startManager.bat)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-37" target="skGRCkMkXogipKOWA8Lq-39">
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-33" target="co0_gV-_lDP_jfXwJyxM-35">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-37" value="Log the change by changing folder permissions in bsu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="322" y="520" width="120" height="40" as="geometry"/>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-33" value="Check Data Source&lt;br&gt;connection (Calls Script datasource_validation&lt;br&gt;.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-39" target="skGRCkMkXogipKOWA8Lq-41">
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-35" target="co0_gV-_lDP_jfXwJyxM-37">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-39" target="skGRCkMkXogipKOWA8Lq-50">
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-35" value="Connect to each Node, and start Nodeagent service if &lt;br&gt;stopped.&lt;br&gt;(Service start)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="520" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-37" target="co0_gV-_lDP_jfXwJyxM-39">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-39" value="Is rollback&lt;br&gt;successful?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="322" y="600" width="120" height="80" as="geometry"/>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-37" value="Start JVMs if any in stopped state&lt;br&gt;(Calls Script start_jvm&lt;br&gt;.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-41" target="skGRCkMkXogipKOWA8Lq-44">
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-39" target="co0_gV-_lDP_jfXwJyxM-45">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-41" value="Successfully applied patch" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="617.5" width="180" height="45" as="geometry"/>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-39" value="Check for bus status&lt;br&gt;(Calls script bus_validation.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-43" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="618.75" width="40" height="20" as="geometry"/>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="1040" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-44" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="740" width="50" height="40" as="geometry"/>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-45" value="Check for bus status&lt;br&gt;(Calls script bus_validation.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="880" width="120" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-49" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="442" y="618.75" width="30" height="20" as="geometry"/>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-43" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="880" width="70" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-50" target="skGRCkMkXogipKOWA8Lq-51">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-50" value="Apply patch failed" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="505" y="618.75" width="175" height="42.5" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-51" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="620" width="50" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-27" target="skGRCkMkXogipKOWA8Lq-35">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-27" value="Is remove patch&lt;br&gt;successful?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="322" y="320" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-55" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="340" width="30" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-57" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="400" width="40" height="20" as="geometry"/>
+        <mxCell id="co0_gV-_lDP_jfXwJyxM-50" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1040" width="70" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
