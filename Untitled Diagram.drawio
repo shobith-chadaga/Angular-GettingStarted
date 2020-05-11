@@ -1,141 +1,29 @@
-<mxfile host="www.draw.io" modified="2020-02-10T10:39:04.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="1F0SPj6ms72af9HIY0CW" version="12.6.6" type="github">
+<mxfile host="www.draw.io" modified="2020-05-11T08:23:17.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="Ca1IIgmL3qFZoj9LFuAE" version="12.9.13" type="github">
   <diagram id="XbEey4qihFn1aIaw0n4t" name="Page-1">
     <mxGraphModel dx="854" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="oMd4Auz60f5KPNyBKYmL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oMd4Auz60f5KPNyBKYmL-1" target="oMd4Auz60f5KPNyBKYmL-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="240" as="targetPoint"/>
-          </mxGeometry>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4VkMX9U7Ixo-YDW_MBsD-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMd4Auz60f5KPNyBKYmL-1" target="4VkMX9U7Ixo-YDW_MBsD-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oMd4Auz60f5KPNyBKYmL-1" value="WAS Restart Start&lt;br&gt;(Main Script.py)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" width="120" height="40" as="geometry"/>
+        <mxCell id="oMd4Auz60f5KPNyBKYmL-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMd4Auz60f5KPNyBKYmL-4" target="skGRCkMkXogipKOWA8Lq-35">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="4VkMX9U7Ixo-YDW_MBsD-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4VkMX9U7Ixo-YDW_MBsD-1" target="4VkMX9U7Ixo-YDW_MBsD-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMd4Auz60f5KPNyBKYmL-4" target="co0_gV-_lDP_jfXwJyxM-26">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="4VkMX9U7Ixo-YDW_MBsD-1" value="Input data.csv -&amp;gt;&lt;br&gt;UNC Path, Permission type,&lt;br&gt;List of users" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="60" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oMd4Auz60f5KPNyBKYmL-4" value="WebSphere App Server path,&lt;br&gt;path of Jython scripts,Wasadmin username,&lt;br&gt;,password,action" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="80" width="280" height="80" as="geometry"/>
+        <mxCell id="4VkMX9U7Ixo-YDW_MBsD-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4VkMX9U7Ixo-YDW_MBsD-3" target="4VkMX9U7Ixo-YDW_MBsD-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="skGRCkMkXogipKOWA8Lq-35" target="co0_gV-_lDP_jfXwJyxM-2">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="4VkMX9U7Ixo-YDW_MBsD-3" value="For each share, target the Insert User&lt;br&gt;API to add users to DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="skGRCkMkXogipKOWA8Lq-35" value="Action = stop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="200" width="120" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-2" target="co0_gV-_lDP_jfXwJyxM-6">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-2" value="Stop JVMs&lt;br&gt;(Calls Script stop_jvm.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="280" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-6" target="co0_gV-_lDP_jfXwJyxM-8">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-6" target="co0_gV-_lDP_jfXwJyxM-15">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-6" value="Stop Nodeagent?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="400" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="640" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-8" value="Stop Nodeagents&lt;br&gt;(Calls Script&lt;br&gt;stop_nodeagent.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="520" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-10" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="480" width="40" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-15" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="425" width="70" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-17" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="420" width="30" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-18" target="co0_gV-_lDP_jfXwJyxM-20">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-18" target="co0_gV-_lDP_jfXwJyxM-23">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-18" value="Stop DMGR?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="640" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-20" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="665" width="70" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-22" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="660" width="30" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-23">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="880" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-23" value="Stop DMGR&lt;br&gt;(run StopManager.bat)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="760" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-25" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="720" width="40" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-26">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="280" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-26" value="Action = start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="200" width="120" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-32" target="co0_gV-_lDP_jfXwJyxM-33">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-32" value="Start DMGR&lt;br&gt;(run startManager.bat)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="280" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-33" target="co0_gV-_lDP_jfXwJyxM-35">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-33" value="Check Data Source&lt;br&gt;connection (Calls Script datasource_validation&lt;br&gt;.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="400" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-35" target="co0_gV-_lDP_jfXwJyxM-37">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-35" value="Connect to each Node, and start Nodeagent service if &lt;br&gt;stopped.&lt;br&gt;(Service start)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="520" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-37" target="co0_gV-_lDP_jfXwJyxM-39">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-37" value="Start JVMs if any in stopped state&lt;br&gt;(Calls Script start_jvm&lt;br&gt;.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="640" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-39" target="co0_gV-_lDP_jfXwJyxM-45">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-39" value="Check for bus status&lt;br&gt;(Calls script bus_validation.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="760" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="co0_gV-_lDP_jfXwJyxM-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="1040" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-45" value="Check for bus status&lt;br&gt;(Calls script bus_validation.py)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="880" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-43" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="145" y="880" width="70" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="co0_gV-_lDP_jfXwJyxM-50" value="Stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="545" y="1040" width="70" height="30" as="geometry"/>
+        <mxCell id="4VkMX9U7Ixo-YDW_MBsD-5" value="For each share, target the Insert User&lt;br&gt;API to add users to DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="70" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
